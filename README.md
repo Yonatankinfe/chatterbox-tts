@@ -76,6 +76,9 @@ Example
 ```bash
 config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_weight=0.4
 ```
+### Example 
+#### Sample image 
+<img width="1158" height="588" alt="Image" src="https://github.com/user-attachments/assets/ea4dbed0-597c-40b1-9f5d-b65125a55e6e" />
 ### ⚠️ Known Limitations
 
 + Voice Samples: Must be WAV format, 10-30 seconds, clean audio
