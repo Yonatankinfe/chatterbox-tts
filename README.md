@@ -54,3 +54,4 @@ chatterbox-tts/
 ```
 ### 🎛️ Configuration Options
 Both the notebook and local script expose key parameters:
+<img width="751" height="341" alt="Image" src="https://github.com/user-attachments/assets/318a8599-2257-4e67-b2f6-2e5380c0855c" />
