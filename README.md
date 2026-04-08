@@ -31,3 +31,26 @@ git clone https://github.com/Yonatankinfe/chatterbox-tts.git
 cd chatterbox-tts
 python local_chatterbox.py
 ```
+
+### The script will:
+
++ Create a virtual environment (optional).
++ Install exact dependencies.
++ Download the model.
++ Generate a sample TTS output.
+
+###⚠️ System Requirements (Local)
+
++ Python 3.10 or 3.11 (3.12 may work but is untested).
++ CUDA‑compatible GPU recommended (CPU fallback works, slowly).
++ ~6 GB free disk space for model weights.
+
+### 📁 Repository Structure
+```bash
+chatterbox-tts/
+├── README.md                 # You are here
+├── chatterbox_colab.ipynb    # Google Colab notebook (end‑to‑end)
+└── local_chatterbox.py       # Single‑script local setup + demo
+```
+### 🎛️ Configuration Options
+Both the notebook and local script expose key parameters:
