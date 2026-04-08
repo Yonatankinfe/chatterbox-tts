@@ -1,6 +1,6 @@
 # 🗣️ Chatterbox TTS Setup
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/chatterbox-tts-setup/blob/main/chatterbox_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yonatankinfe/chatterbox-tts/blob/main/chatterbox_colab.ipynb)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,3 +17,17 @@ Both methods include:
 - Audio playback and waveform visualization.
 
 ---
+## 🚀 Quick Start
+
+### ☁️ Option 1: Google Colab (Recommended)
+
+Click the badge above or [open this link](https://colab.research.google.com/github/Yonatankinfe/chatterbox-tts/blob/main/chatterbox_colab.ipynb).  
+Run the cells **in order** – the notebook will install everything, download the model, and generate speech.  
+Upload a voice sample to your Google Drive for cloning (optional).
+
+### 💻 Option 2: Local Setup
+```bash
+git clone https://github.com/Yonatankinfe/chatterbox-tts.git
+cd chatterbox-tts
+python local_chatterbox.py
+```
