@@ -55,3 +55,12 @@ chatterbox-tts/
 ### 🎛️ Configuration Options
 Both the notebook and local script expose key parameters:
 <img width="751" height="341" alt="Image" src="https://github.com/user-attachments/assets/318a8599-2257-4e67-b2f6-2e5380c0855c" />
+### 🎭 Presets
+The code includes several speaking‑style presets:
+```bash
+"neutral", "calm", "expressive", "dramatic", "storytelling", "audiobook", "fast_speaker"
+```
+Example
+```bash
+config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_weight=0.4
+```
