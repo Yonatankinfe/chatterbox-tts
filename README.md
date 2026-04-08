@@ -44,7 +44,19 @@ python local_chatterbox.py
 + Python 3.10 or 3.11 (3.12 may work but is untested).
 + CUDA‑compatible GPU recommended (CPU fallback works, slowly).
 + ~6 GB free disk space for model weights.
-
+### 📦 Dependencies 
+```bash
+torch==2.5.0
+torchaudio==2.5.0
+transformers==4.46.3
+diffusers==0.29.0
+protobuf==3.20.3
+chatterbox-tts (latest, --no-deps)
+resemble-perth
+s3tokenizer
+conformer
+librosa==0.11.0
+```
 ### 📁 Repository Structure
 ```bash
 chatterbox-tts/
@@ -64,3 +76,14 @@ Example
 ```bash
 config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_weight=0.4
 ```
+### ⚠️ Known Limitations
+
++ Voice Samples: Must be WAV format, 10-30 seconds, clean audio
++ Long Texts: Very long passages (>2000 words) may require multiple runs
++ GPU Memory: 6GB+ VRAM recommended for optimal performance
++ Python Version: Tested on 3.10/3.11; 3.12 untested
+
+### 🙏 Acknowledgments
++ Resemble AI for creating and open-sourcing Chatterbox
++ The PyTorch team for the incredible deep learning framework
++ All early testers who helped identify edge cases
