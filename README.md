@@ -77,6 +77,8 @@ Example
 config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_weight=0.4
 ```
 ### Example 
+### Sample voice
+
 #### Sample image 
 <img width="1158" height="588" alt="Image" src="https://github.com/user-attachments/assets/ea4dbed0-597c-40b1-9f5d-b65125a55e6e" />
 ### ⚠️ Known Limitations
@@ -90,3 +92,5 @@ config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_wei
 + Resemble AI for creating and open-sourcing Chatterbox
 + The PyTorch team for the incredible deep learning framework
 + All early testers who helped identify edge cases
+
+
