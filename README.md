@@ -80,6 +80,7 @@ config.get_preset("storytelling")  # Returns dict with exaggeration=0.8, cfg_wei
 ### Sample voice
 [download (8).wav](https://github.com/user-attachments/files/26598106/download.8.wav)
 ### Sample voice for content Creation
+[download (7).wav](https://github.com/user-attachments/files/26598189/download.7.wav)
 
 #### Sample image 
 <img width="1158" height="588" alt="Image" src="https://github.com/user-attachments/assets/ea4dbed0-597c-40b1-9f5d-b65125a55e6e" />
