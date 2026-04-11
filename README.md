@@ -1,8 +1,9 @@
 # 🗣️ Chatterbox TTS Setup
-🔗 Here is the link of Google Colab link : https://colab.research.google.com/drive/1ghLnU6tz1QT1685QhjptIF-lPG_87aie?usp=sharing
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yonatankinfe/chatterbox-tts/blob/main/chatterbox_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ghLnU6tz1QT1685QhjptIF-lPG_87aie?usp=sharing)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+🔗 Here is the link of Google Colab link : https://colab.research.google.com/drive/1ghLnU6tz1QT1685QhjptIF-lPG_87aie?usp=sharing
 
 A streamlined, battle-tested setup for [Chatterbox TTS](https://github.com/resemble-ai/chatterbox) — the expressive, voice-cloning text-to-speech model by Resemble AI. This repository provides **two foolproof ways** to get Chatterbox running:
 
